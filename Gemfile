@@ -73,3 +73,9 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem 'hai', github: 'basicBrogrammer/hai'
+gem 'graphql-ruby'
+gem "graphiql-rails", group: :development
+
+gem 'pry'
