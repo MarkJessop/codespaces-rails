@@ -1,7 +1,7 @@
 module Types
   class MutationType < Types::BaseObject
     include Hai::GraphQL
-    hai_mutation(Post)
+    hai_mutation(Post, User)
     
     # TODO: remove me
     field :test_field, String, null: false,

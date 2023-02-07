@@ -1,6 +1,6 @@
 class CodespacesTryRailsSchema < GraphQL::Schema
   include Hai::GraphQL::Types
-  hai_types(Post)
+  hai_types(Post, User)
 
   mutation(Types::MutationType)
   query(Types::QueryType)

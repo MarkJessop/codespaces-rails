@@ -7,7 +7,7 @@ module Types
     # Add root-level fields here.
     # They will be entry points for queries on your schema.
     include Hai::GraphQL
-    hai_query(Post)
+    hai_query(Post, User)
 
     # TODO: remove me
     field :test_field, String, null: false,

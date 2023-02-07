@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/basicBrogrammer/hai.git
-  revision: 764f1eb86db92b8725d6b254d95b8f690d68d334
+  revision: 284660e1364dabcf52b5905db82b3a331dc611c3
   specs:
     hai (0.0.3)
       activerecord (~> 7.0)
